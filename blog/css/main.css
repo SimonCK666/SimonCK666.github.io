@@ -1,0 +1,21 @@
+body {
+    background: #454545;
+    color: #eee;
+}
+
+#side-bar {
+    float: left;
+    width: 20%;
+    background: #000;
+}
+
+#main {
+    float: right;
+    width: 80%;
+}
+
+#side-bar .header .logo {
+    padding: 10px 20px;
+    font-size: 30px;
+    display: inline-block;
+}
