@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="common.css">
+    <!-- media_query(媒体查询)设定了在不同设备上的响应式布局 -->
+    <!-- orientation: landscape/portrait 手机为横向/纵向时为此样式 -->
+    <link media="(orientation: landscape) and (min-width: 500px)" rel="stylesheet" href="desktop.css">
+    <link media="(max-width: 500px)" rel="stylesheet" href="mobile.css">
+    <style>
+        /* 选中并更改样式 */
+        #checkbox:checked ~ p {
+            background:#000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="" id="checkbox">
+    <p>AAA</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo dolores reiciendis vel illum error magnam, voluptatem odio labore sapiente praesentium tempora nesciunt nulla quibusdam sunt maiores odit deserunt est.
+</body>
+</html>
