@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="container" role="main">
+  <div class="row">
+    <!--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> --> <!--original-->
+    <!--<div class="col-lg-10.5 col-lg-offset-0.5 col-md-10 col-md-offset-1"> --> <!--broaden-->
+    <div class="col-lg-10.5 col-lg-offset-1 col-md-10 col-md-offset-1">  <!--column-->
+      {{ content }}
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
+</div>
+
+

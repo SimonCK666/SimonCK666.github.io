@@ -1,0 +1,144 @@
+---
+layout: page
+use-site-title: true
+---
+
+
+<!--  previous
+<h1 style="text-align: center;">Chen Jie</h1>
+
+<p id="h.p_CXTVXjOC8PG6" class="zfr3Q">My name is Chen Jie (陈杰), and I am currently a research fellow at ST Engineering-NTU Corporate Laboratory, Singapore. I received the B.S. and the M. Eng degree both from&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Foei.hust.edu.cn%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE-jy7y3nfL1isqeRZxuh6kSwSM-Q" target="_blank" rel="noopener"><strong>School of Optical and Electronic Information, Huazhong University of Science and Technology</strong></a>, China, and the Ph.D. degree in the&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Fwww.ntu.edu.sg%2FPages%2Fhome.aspx&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH7yyDwLB669Ztmj6t7aQywYxWANw" target="_blank" rel="noopener"><strong>School of Electrical &amp; Electronic Engineering, Nanyang Technological University</strong></a>, Singapore, in 2016.</p>
+<p id="h.p_wYsnr3En9A7y" class="zfr3Q">My research interests are in computational photography (systems and algorithms for light field/hyperspectral signal acquisition, compressed compressing and compression), computational and machine learning methods for image/video restoration (denoising, vision enhancement, super resolution, motion analysis), and 3D content modeling.</p> 
+-->
+
+<div class="bio-entry-container">
+
+	<div class="bio-image">
+		  <img src="jchenhkg.github.io/img/McRichie-m.jpg" alt="" width="400" />
+	</div>
+
+<div class="bio-entry">
+<p style="text-align: justify;">My name is Chen Jie (陈杰), and I am currently an assistant professor at the <a class="dhtgD" href="https://www.comp.hkbu.edu.hk/v1/" target="_blank" rel="noopener"><strong>Department of Computer Science, Hong Kong Baptist Univresity</strong></a>. 
+Before joining HKBU, I was a senior algorithm engineer at Omnivision Technologies Inc. Singapore, focusing on next generation HDR solutions. 
+Before that, I was a research fellow at ST Engineering-NTU Corporate Laboratory, Singapore since 2015. I received the B.S. and the M. Eng degree both from
+&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Foei.hust.edu.cn%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE-jy7y3nfL1isqeRZxuh6kSwSM-Q" target="_blank" rel="noopener"><strong>School of Optical and Electronic Information, Huazhong University of Science and Technology</strong></a>, China, and the Ph.D. degree in the&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Fwww.ntu.edu.sg%2FPages%2Fhome.aspx&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH7yyDwLB669Ztmj6t7aQywYxWANw" target="_blank" rel="noopener"><strong>School of Electrical &amp; Electronic Engineering, Nanyang Technological University</strong></a>, Singapore, in 2016.</p>
+<p>My research interests are in computational photography (systems and algorithms for light field/hyperspectral signal acquisition, compressed compressing and compression), computational and machine learning methods for image/video restoration (denoising, vision enhancement, super resolution, motion analysis), and 3D content modeling.</p>
+<p>I am looking for self-motivated PhD/MPhil/Visiting students (2019 Sping/Autumn) who has aspirations in working out vision problems with tools of mathmatics and machine learning [<a href="mailto:jchenhkg@gmail.com">Email me</a>].</p>
+</div>
+</div>
+
+<!--  
+previous
+<table style="height: 67px;" width=100%>
+<tbody>
+<tr>
+<td style="width: 200px; border-style: hidden;"><img src="hotndy.github.io/img/GrandTeton.jpg" alt="" width="250" /></td>
+
+<div class="bio-image">
+<img src="hotndy.github.io/img/GrandTeton.jpg" alt="" width="250" />
+</div>
+
+<td style="border-style: hidden; text-align: justify;">
+<p>My name is Chen Jie (陈杰), and I am currently a research fellow at ST Engineering-NTU Corporate Laboratory, Singapore. I received the B.S. and the M. Eng degree both from&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Foei.hust.edu.cn%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE-jy7y3nfL1isqeRZxuh6kSwSM-Q" target="_blank" rel="noopener"><strong>School of Optical and Electronic Information, Huazhong University of Science and Technology</strong></a>, China, and the Ph.D. degree in the&nbsp;<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Fwww.ntu.edu.sg%2FPages%2Fhome.aspx&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH7yyDwLB669Ztmj6t7aQywYxWANw" target="_blank" rel="noopener"><strong>School of Electrical &amp; Electronic Engineering, Nanyang Technological University</strong></a>, Singapore, in 2016.</p>
+<p>My research interests are in computational photography (systems and algorithms for light field/hyperspectral signal acquisition, compressed compressing and compression), computational and machine learning methods for image/video restoration (denoising, vision enhancement, super resolution, motion analysis), and 3D content modeling.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+<!--
+<p>&nbsp;</p>
+-->
+<h2><u>Research Highlights</u></h2>
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h3 class="post-title">{{ post.title }}</h3>
+
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <p class="post-meta">	    
+      	<!--Posted on {{ post.date | date: "%B %-d, %Y" }}-->
+	{{post.publish}}
+    </p>
+	  
+    <div class="post-entry-container">
+	{% if post.image %}
+		<div class="post-image">
+			  <a href="{{ post.url | prepend: site.baseurl }}">
+			  <img src="{{ post.image }}">
+			  </a>
+		</div>
+      	{% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
+	  
+    <p class="post-meta">
+	{% if post.paperlink %}  
+	    <!--[<a href="{{post.paperlink}}">paper</a>]-->
+	    <span style="color: #0000ff;">[<a href="{{post.paperlink}}">paper</a>]</span>
+	{% endif %} 
+	{% if post.codelink %}  
+	    <span style="color: #0000ff;">[<a href="{{post.codelink}}">code</a>]</span>
+	{% endif %} 
+	{% if post.resourcelink %}  
+	    <span style="color: #0000ff;">[<a href="{{post.resourcelink}}">data</a>]</span>
+	{% endif %} 
+	<!--&nbsp;&nbsp; -->  	    
+      	<!-- Posted on {{ post.date | date: "%B %-d, %Y" }} -->
+    </p>
+
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %} 
+</ul>
+{% endif %}
+
+<body>		
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=454545&w=353&t=tt&d=syEIKLq4xPI3TTHjfgrRIXd7Gg_wHTJzPFp2GDprnoM&co=ffffff&cmo=03828a&cmn=c70000&ct=000000'></script>	
+<!--
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=3b3b3b&w=300&t=tt&d=nBoYYQDVgmnZWbAz6EpOx2ucR9VW0whf3QtBJCfCvyk&co=ffffff&cmo=2b66fc&cmn=ff5353&ct=808080'></script>
+-->
+</body> 		
+
+
+
